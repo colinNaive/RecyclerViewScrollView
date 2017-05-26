@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="9.5dp"
+    android:background="#ffffff">
+    <TextView
+        android:text="查看更多周边跟团>"
+        android:gravity="right|center_vertical"
+        android:textSize="11sp"
+        android:paddingRight="9.7dp"
+        android:textColor="#009fde"
+        android:layout_width="match_parent"
+        android:layout_height="40.3dp" />
+</RelativeLayout>

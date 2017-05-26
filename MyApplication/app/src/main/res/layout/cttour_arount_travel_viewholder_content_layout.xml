@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+    android:paddingTop="14.3dp"
+    android:paddingLeft="9.6dp"
+    android:paddingRight="11dp"
+    android:layout_marginBottom="1dp"
+    android:orientation="horizontal">
+    <!--Part 1: Image-->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="14dp"
+        android:orientation="vertical">
+        <ImageView
+            android:src="@drawable/ic_launcher"
+            android:layout_width="76.8dp"
+            android:layout_height="76.8dp" />
+        <TextView
+            android:text="上海出发"
+            android:textSize="11sp"
+            android:textColor="#666666"
+            android:gravity="center"
+            android:background="#eeeeee"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="76.8dp"
+            android:layout_height="17dp" />
+    </LinearLayout>
+
+    <!--Part 2: Text lines-->
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="上海东方明珠+浦江游览+城隍庙旅游区+南京东路一日游"
+            android:textColor="#333333"
+            android:textSize="14sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="明日确定 立即确定"
+            android:layout_marginTop="8.3dp"
+            android:textColor="#666666"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginTop="11dp"
+            android:text="4.9分 超棒 月销2607份"
+            android:textColor="#333333"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,60 @@
+<com.ctrip.zhshan.myapplication.MyScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/view_hover"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:descendantFocusability="blocksDescendants"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:gravity="center"
+            android:id="@+id/other"
+            android:text="其他部分" />
+
+        <LinearLayout
+            android:tag="aaa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#AAff0000"
+            android:orientation="horizontal"
+            android:id="@+id/head_bar_linear">
+            
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:text="周边跟团"
+                android:background="#ffffff"
+                android:textSize="15sp"
+                android:id="@+id/click"
+                android:textColor="#000000"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:text="跳"
+                android:background="#ffffff"
+                android:textSize="15sp"
+                android:id="@+id/click_to"
+                android:textColor="#000000"
+                android:gravity="center"/>
+
+        </LinearLayout>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#e8e8e8"
+            android:paddingTop="10dp">
+
+        </android.support.v7.widget.RecyclerView>
+
+    </LinearLayout>
+</com.ctrip.zhshan.myapplication.MyScrollView>
+
