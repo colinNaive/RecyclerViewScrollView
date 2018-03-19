@@ -1,0 +1,63 @@
+<com.ctrip.zhshan.myapplication.headerScrollView.HeaderScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/view_hover"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:scrollbars="none"
+    app:top_offset="55dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/other"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:gravity="center"
+            android:text="其他部分（这个activity解决了滑动冲突，可以试着滑动看看！）" />
+
+        <LinearLayout
+            android:id="@+id/head_bar_linear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#AAff0000"
+            android:orientation="horizontal"
+            android:paddingBottom="5dp"
+            android:tag="aaa">
+
+            <TextView
+                android:id="@+id/click"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:background="#ffffff"
+                android:gravity="center"
+                android:text="周边跟团"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/click_to"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:background="#ffffff"
+                android:gravity="center"
+                android:text="跳"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#e8e8e8">
+
+    </android.support.v7.widget.RecyclerView>
+</com.ctrip.zhshan.myapplication.headerScrollView.HeaderScrollView>
+

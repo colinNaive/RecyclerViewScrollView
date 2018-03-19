@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/colinambitious/.android/build-cache/aba536a1e7fdc1f4708c822f825f18e485bc78d3/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="95519720620b553f63afc789beba9ad582807f7c">
+        <dex dex="/Users/colinambitious/work/ctrip/MyDemo/slideConflict/RecyclerViewScrollView/MyApplication/app/build/intermediates/pre-dexed/debug/classes_151618b109d85f9acba45a6b72f0356546b74037.jar" />
+    </item>
+
+</items>
