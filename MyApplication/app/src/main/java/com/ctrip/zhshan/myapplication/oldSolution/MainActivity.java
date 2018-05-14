@@ -10,6 +10,7 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.ctrip.zhshan.myapplication.R;
+import com.ctrip.zhshan.myapplication.airStop.AirStopActivity;
 import com.ctrip.zhshan.myapplication.newSolution.SolutionActivity;
 
 import java.util.ArrayList;
@@ -24,7 +25,7 @@ public class MainActivity extends AppCompatActivity implements MyScrollView.OnFi
     private HoveringAdapter adapter;
     private List<String> headTitles = new ArrayList<>();
     private int selectPos = 0;
-    private TextView other;
+    private TextView other,airStop;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -50,6 +51,15 @@ public class MainActivity extends AppCompatActivity implements MyScrollView.OnFi
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, SolutionActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        airStop = (TextView) findViewById(R.id.air_stop);
+        airStop.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, AirStopActivity.class);
                 startActivity(intent);
             }
         });

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <com.ctrip.zhshan.myapplication.airStop.NestedScrollView
+        android:id="@+id/scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:paddingTop="30dp">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="#0f0" />
+
+            <LinearLayout
+                android:id="@+id/horizontal_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:tag="fix">
+
+                <HorizontalScrollView
+                    android:id="@+id/target_horizontal_scrollview"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp">
+
+                    <LinearLayout
+                        android:id="@+id/target_content"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="#f9faf9"
+                        android:orientation="horizontal">
+
+                    </LinearLayout>
+                </HorizontalScrollView>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="#eeeeee"
+                android:text="间隔" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="800dp"
+                android:background="#f00"
+                android:text="其他部分" />
+
+        </LinearLayout>
+
+    </com.ctrip.zhshan.myapplication.airStop.NestedScrollView>
+
+    <LinearLayout
+        android:id="@+id/horizontal_content_new"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal" />
+</RelativeLayout>

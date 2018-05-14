@@ -17,6 +17,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".newSolution.SolutionActivity"></activity>
+        <activity android:name=".airStop.AirStopActivity"></activity>
     </application>
 
 </manifest>

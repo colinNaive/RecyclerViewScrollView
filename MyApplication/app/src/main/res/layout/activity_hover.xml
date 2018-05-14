@@ -12,11 +12,25 @@
         <TextView
             android:id="@+id/other"
             android:layout_width="match_parent"
-            android:layout_height="300dp"
+            android:layout_height="100dp"
             android:gravity="center"
             android:text="其他部分(点我跳转到新的activity)"
             android:textColor="#f00"
-            android:textSize="30dp" />
+            android:textSize="20dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#666" />
+
+        <TextView
+            android:id="@+id/air_stop"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:gravity="center"
+            android:text="其他部分(点我跳转到实现吸顶Activity)"
+            android:textColor="#0f0"
+            android:textSize="20dp" />
 
         <LinearLayout
             android:id="@+id/head_bar_linear"

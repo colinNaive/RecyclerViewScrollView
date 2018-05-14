@@ -1,0 +1,19 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <!--Set shape : rectangle-->
+
+    <!--Set solid color-->
+    <solid android:color="#fcfcfc" />
+
+    <!--color and size of border-->
+    <stroke
+        android:width="0.4dp"
+        android:color="#dddddd"
+        />
+
+    <!--radius of border-->
+    <corners
+    android:radius="3.84dp"
+    />
+
+</shape>
